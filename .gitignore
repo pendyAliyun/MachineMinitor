@@ -11,7 +11,11 @@
 # Generated files
 */bin/
 */*/bin/
+*/*/*/bin/
+*/*/*/obj/
+*/*/obj/
 bin/
+*/*/Debug/
 */gen/
 */out/
   
