@@ -18,13 +18,7 @@ namespace Common
     {
         public static string connstring = StringSecurity.DESDecrypt(ConfigurationManager.ConnectionStrings["slm_erpConn"].ToString());
         public static string connSYS;
-
-        //static string connstring = @"server=10.0.0.9;database=EB_shintech;UID=sc;PWD=DZP@STE11";
-        //static string connstring = ConfigurationManager.ConnectionStrings["MySqlConnection"].ToString();
-        //static string connstring = @"server=10.0.0.7;;database=SRM;UID=sa;PWD=it5002";
-        //static string connstring = StringSecurity.DESDecrypt("skl1kKgFLhOkGmGIkIT5AX40+Jt1yicULLaHCobuA6D2HXAbNMCet6VyM3ExtY5UlaMWChElIjIR2w3O4rPsmA==");
-
-
+		
         #region 加解密字符串测试
         /// <summary>
         /// 加解密字符串设定
